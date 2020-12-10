@@ -20,8 +20,8 @@ The app stores every burger in a database, whether devoured or not.
 
 ## Installation
 
-> npm i inquirer && npm i mysql
-  
+> npm i
+
 ## Usage
 To use the repo, fork it to your github page or clone the repository.
 
