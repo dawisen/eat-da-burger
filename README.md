@@ -17,8 +17,7 @@ The app stores every burger in a database, whether devoured or not.
 * [Testing](#Testing)
 * [Questions](#Questions)
 
-## Demo
-Watch my walkthrough on [Youtube]()
+
 ## Installation
 
 > npm i inquirer && npm i mysql
