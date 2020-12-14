@@ -1,18 +1,17 @@
 <header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
     <h1 class="w3-xlarge">BURGERS</h1>
-{{!-- <h1>Burgers</h1> --}}
-    <h2>Add a Burger</h2>
+    <h3>Add a new Burger</h3>
     <form class="create-form">
 
     <div class="form-group">
-        <label for="ca">Burger Name:</label>
-        <input type="text" id="ca" name="name">
+        <label for="burger">Burger Name:</label>
+        <input type="text" id="burger" name="burgerName">
     </div>
 
     <div class="form-group">
         <label for="devoured">Devoured?</label><br>
-        <input type="radio" name="devoured" value="1" checked> Devoured<br>
-        <input type="radio" name="devoured" value="0"> Not Devoured
+        <input type="radio" name="burgState" value="1" checked> Devoured<br>
+        <input type="radio" name="burgState" value="0"> Not Devoured
     </div>
 
     <button type="submit">Add Burger</button>
