@@ -1,10 +1,10 @@
 const orm = require("../config/orm");
 
 var burger = {
-  test: function (serverFunc) {
-    console.log("foo");
-    serverFunc();
-  },
+  // test: function (serverFunc) {
+  //   console.log("foo");
+  //   serverFunc();
+  // },
   selectAll: function (serverFunc) {
     orm.selectAll("burgers", function (res) {
       serverFunc(res);
