@@ -9,7 +9,6 @@ The app stores every burger in a database, whether devoured or not.
 
 ## Table of Contents
 
-* [Demo](#Demo)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
